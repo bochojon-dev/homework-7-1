@@ -1,0 +1,88 @@
+.login {
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+}
+.login_contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px 30px 30px;
+  width: 540px;
+  gap: 36px;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+.input label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #444;
+}
+.me {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #777;
+}
+.me label {
+  font-size: 15px;
+  font-weight: 400;
+}
+.me input {
+  cursor: pointer;
+  box-shadow: 0px -15px 10px -11px #0000000d inset;
+  border: 1px solid #e9e9e9;
+  background: #ffffff01;
+  border-radius: 5px;
+  width: 18px;
+  height: 18px;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+}
+.forgot p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
+.input input {
+  width: 100%;
+  padding: 15px 13px;
+  border: 1px solid #e9e9e9;
+  border-radius: 5px;
+}
+.forgot,
+.sign {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign button {
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.sign button:hover {
+  opacity: 0.85;
+}
+.sign button:active {
+  transform: scale(0.95);
+}
+.sign .btn1 {
+  padding: 12px 20px;
+  background: aqua;
+  color: #fff;
+}
+.btn2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #777777 !important;
+  background: #fff !important;
+}

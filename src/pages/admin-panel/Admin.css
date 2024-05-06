@@ -1,0 +1,8 @@
+.aside {
+  width: 300px;
+  height: 100vh;
+  background: aqua;
+}
+.admin_contents {
+  display: flex;
+}

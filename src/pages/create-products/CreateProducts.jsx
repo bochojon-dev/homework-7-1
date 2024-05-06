@@ -1,3 +1,4 @@
+import Dashboard from "../../components/dashboard/Dashboard";
 import axios from "../../api";
 import React, { useState } from "react";
 
@@ -19,6 +20,7 @@ const CreateProducts = () => {
 
   return (
     <div>
+      <Dashboard />
       <h2>CreateProducts</h2>
       <form onSubmit={handleCreateUser}>
         <input
