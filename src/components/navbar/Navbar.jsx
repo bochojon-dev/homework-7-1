@@ -23,10 +23,15 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            <Link to={"/"}>News</Link>
+            <Link className="logo" to={"/"}>
+              News
+            </Link>
           </Typography>
           <Button color="inherit">
             <Link to={"/login"}>Login</Link>
+          </Button>
+          <Button color="inherit">
+            <Link to={"/admin"}>Admin</Link>
           </Button>
         </Toolbar>
       </AppBar>
