@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  padding: 50px;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 16px;
+}
+.card {
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid gray;
+}
